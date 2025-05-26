@@ -51,8 +51,8 @@ Process Management APIs:
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/windows-patch-detector.git
-cd windows-patch-detector
+git clone https://github.com/txvch/ntdll-patch-checker.git
+cd ntdll-patch-checker
 
 pip install psutil pywin32
 ```
@@ -63,7 +63,7 @@ pip install psutil pywin32
 
 ```bash
 # Must be run as Administrator
-python patch_detector.py
+python NtdllPatchChecker.py
 ```
 ### Understanding the Output
 The tool provides detailed logging and results:
