@@ -8,7 +8,7 @@ import struct
 import time
 import os
 import sys
-
+#
 # Some constants I threw in here
 chunkSz = 64  # how much we read at once
 procRead = 0x0010  # PROCESS_VM_READ
